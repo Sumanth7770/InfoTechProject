@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder - Your Resume Deserves a Yes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="Screenshot (48).png" class="Logo" alt="logo" height="55px"width="190ox">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Frame Container -->
+    <div class="frame-container">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-background"></div>
+            
+            <!-- Left Content -->
+            <div class="hero-content">
+                <h1 class="hero-title">Your Resume Deserves a yes let's make it happen</h1>
+                <p class="hero-description">
+                    If your resume isn't getting responses, it's time for an upgrade. Get an ATS-optimized resume crafted by HR experts to help you land more interviews. Our resumes are designed to get your foot in the door and place your name at the top of the shortlist.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-outline">CONTACT</button>
+                    <button class="btn btn-primary" onclick="scrollToServices()">OUR SERVICES</button>
+                </div>
+                
+                
+            </div>
+
+            <!-- Right Side - Image and Stats -->
+            <div class="hero-image-section">
+                <!-- Background Circles -->
+                <div class="circle-container">
+                    <div class="circle circle-1"></div>
+                    <div class="circle circle-2"></div>
+                </div>
+                
+                <!-- Main Image -->
+                <div class="main-image">
+                    <img src="portrait-removebg-preview.png" alt="Happy young woman with backpack and books" loading="eager" height="600px">
+                    
+                </div>
+
+                <!-- Stats Card 1 - Resume Created -->
+                <div class="stats-card stats-card-1">
+                    <div class="stats-icon">
+                        <div class="icon-bg"></div>
+                    </div>
+                    <div class="stats-content">
+                        <div class="stats-number">260+</div>
+                        <div class="stats-label">Online Resume Created</div>
+                    </div>
+                </div>
+
+                <!-- Stats Card 2 - Rating -->
+                <div class="stats-card stats-card-2">
+                    <div class="stats-rating">4.9</div>
+                    <div class="stats-rating-content">
+                        <div class="rating-stars">★★★★★</div>
+                        <div class="rating-text">Instructor Rating</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="services-grid">
+                    <!-- ATS Optimization Service -->
+                    <div class="service-card ats-card">
+                        <div class="service-image">
+                            <img src="./ats.png" alt="ATS Optimization Service" loading="lazy">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">ATS Optimization</h3>
+                            <p class="service-description">
+                                Our resumes are optimized to pass through Applicant Tracking Systems (ATS) 
+                                used by 99% of Fortune 500 companies. We ensure your resume gets seen by human recruiters.
+                            </p>
+                            <ul class="service-features">
+                                <li>Keyword optimization</li>
+                                <li>Format compatibility</li>
+                                <li>ATS-friendly templates</li>
+                                <li>Industry-specific tailoring</li>
+                            </ul>
+                            <div class="service-price">Starting at $99</div>
+                            <button class="btn btn-primary service-btn">Get Started</button>
+                        </div>
+                    </div>
+
+                    <!-- Interview Preparation Service -->
+                    <div class="service-card interview-card">
+                        <div class="service-image">
+                            <img src="./interview.png" alt="Interview Preparation Service" loading="lazy">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Interview Preparation</h3>
+                            <p class="service-description">
+                                Master your interview skills with our comprehensive preparation program. 
+                                Practice with industry experts and boost your confidence.
+                            </p>
+                            <ul class="service-features">
+                                <li>Mock interviews</li>
+                                <li>Common questions practice</li>
+                                <li>Body language coaching</li>
+                                <li>Industry-specific prep</li>
+                                <li>Industry-specific prep</li>
+                            </ul>
+                            <div class="service-price">Starting at $149</div>
+                            <button class="btn btn-primary service-btn">Get Started</button>
+                        </div>
+                    </div>
+
+                    <!-- Cover Letter Service -->
+                    <div class="service-card cover-letter-card">
+                        <div class="service-image">
+                            <img src="./cover letter.png" alt="Cover Letter Writing Service" loading="lazy">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Cover Letter Writing</h3>
+                            <p class="service-description">
+                                Compelling cover letters that complement your resume and tell your story. 
+                                We craft personalized letters that get you noticed.
+                            </p>
+                            <ul class="service-features">
+                                <li>Personalized content</li>
+                                <li>Company research</li>
+                                <li>Multiple versions</li>
+                                <li>Quick turnaround</li>
+                                <li>AI Utlization</li>
+                                <li>Quick turnaround</li>
+                            </ul>
+                            <div class="service-price">Starting at $79</div>
+                            <button class="btn btn-primary service-btn">Get Started</button>
+                        </div>
+                    </div>
+
+                    <!-- LinkedIn Optimization Service -->
+                    <div class="service-card linkedin-card">
+                        <div class="service-image">
+                            <img src="./linkedin.png" alt="LinkedIn Optimization Service" loading="lazy">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">LinkedIn Optimization</h3>
+                            <p class="service-description">
+                                Optimize your LinkedIn profile to attract recruiters and showcase your 
+                                professional brand effectively.
+                            </p>
+                            <ul class="service-features">
+                                <li>Profile optimization</li>
+                                <li>Headline crafting</li>
+                                <li>Summary writing</li>
+                                <li>Keyword integration</li>
+                                <li>Grammer Correction</li>
+                                <li>Error Checking</li>
+                            </ul>
+                            <div class="service-price">Starting at $69</div>
+                            <button class="btn btn-primary service-btn">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

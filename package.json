@@ -1,0 +1,32 @@
+{
+  "name": "landing-page-frontend-interview",
+  "version": "1.0.0",
+  "description": "A modern, responsive landing page built for frontend interview assessment",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/",
+    "build": "echo 'No build process needed for static site'",
+    "lint": "echo 'No linting configured'"
+  },
+  "keywords": [
+    "landing-page",
+    "frontend",
+    "html",
+    "css",
+    "javascript",
+    "responsive",
+    "modern"
+  ],
+  "author": "Frontend Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
